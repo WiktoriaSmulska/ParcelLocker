@@ -1,0 +1,29 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+email-validator = "*"
+geopy = "*"
+python-dotenv = "*"
+speechrecognition = "*"
+pyaudio = "*"
+elevenlabs = "*"
+openai = "*"
+pipwin = "*"
+
+[dev-packages]
+pytest = "*"
+pytest-cov = "*"
+mypy = "*"
+pyright = "*"
+
+[requires]
+python_version = "3.13"
+
+[scripts]
+start = "python main.py"
+check = "pyright"
+check2 = "mypy src tests main.py"
+test = "pytest --cov=src --cov-report=html"

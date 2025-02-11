@@ -1,0 +1,24 @@
+[
+  {
+    "locker_id": "L001",
+    "city": "New York",
+    "latitude": 40.730610,
+    "longitude": -73.935242,
+    "compartments": {
+      "small": 20,
+      "medium": 15,
+      "large": 5
+    }
+  },
+  {
+    "locker_id": "L002",
+    "city": "Los Angeles",
+    "latitude": 34.052235,
+    "longitude": -118.243683,
+    "compartments": {
+      "small": 25,
+      "medium": 10,
+      "large": 8
+    }
+  }
+]

@@ -1,0 +1,22 @@
+=== Parcel Sizes ===
+Parcel ID: P12345, Size: LockerComponentsSize.MEDIUM
+Parcel ID: P67890, Size: LockerComponentsSize.MEDIUM
+
+=== Locker_usage_section ===
+Locker ID: L001, Most Frequently Used Sizes: LockerComponentsSize.MEDIUM
+Locker ID: L002, Most Frequently Used Sizes: LockerComponentsSize.MEDIUM
+
+=== Most Frequently Used Parcel Sizes ===
+Locker ID: L001, Most Frequently Used Sizes: LockerComponentsSize.MEDIUM
+Locker ID: L002, Most Frequently Used Sizes: LockerComponentsSize.MEDIUM
+
+=== Senders and Recipients with Farthest Deliveries ===
+Farthest Senders:
+  alice.smith@gmail.com, Farthest Locker: L002, Distance: 2809.5384744134203 km
+
+Farthest Recipients:
+  john.doe@gmail.com, Farthest Locker: L002, Distance: 3944.4215823440827 km
+
+=== Longest Delivery ===
+Sender: bob.jones@gmail.com, Longest Delivery Time: 6 days
+

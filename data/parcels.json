@@ -1,0 +1,14 @@
+[
+  {
+    "parcel_id": "P12345",
+    "height": 30,
+    "length": 50,
+    "weight": 5
+  },
+  {
+    "parcel_id": "P67890",
+    "height": 20,
+    "length": 40,
+    "weight": 4
+  }
+]

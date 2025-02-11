@@ -1,0 +1,18 @@
+[
+  {
+    "parcel_id": "P12345",
+    "locker_id": "L001",
+    "sender_email": "alice.smith@gmail.com",
+    "receiver_email": "john.doe@gmail.com",
+    "sent_date": "2023-12-01",
+    "expected_delivery_date": "2023-12-05"
+  },
+  {
+    "parcel_id": "P67890",
+    "locker_id": "L002",
+    "sender_email": "bob.jones@gmail.com",
+    "receiver_email": "jane.smith@gmail.com",
+    "sent_date": "2023-12-02",
+    "expected_delivery_date": "2023-12-08"
+  }
+]

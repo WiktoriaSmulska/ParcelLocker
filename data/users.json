@@ -1,0 +1,35 @@
+[
+  {
+    "email": "john.doe@gmail.com",
+    "name": "John",
+    "surname": "Doe",
+    "city": "New York",
+    "latitude": 40.712776,
+    "longitude": -74.005974
+  },
+  {
+    "email": "jane.smith@gmail.com",
+    "name": "Jane",
+    "surname": "Smith",
+    "city": "Los Angeles",
+    "latitude": 34.052235,
+    "longitude": -118.243683
+  },
+  {
+    "email": "alice.smith@gmail.com",
+    "name": "Alice",
+    "surname": "Smith",
+    "city": "Chicago",
+    "latitude": 41.878113,
+    "longitude": -87.629799
+  },
+  {
+    "email": "bob.jones@gmail.com",
+    "name": "Bob",
+    "surname": "Jones",
+    "city": "San Francisco",
+    "latitude": 37.774929,
+    "longitude": -122.419418
+  }
+]
+
