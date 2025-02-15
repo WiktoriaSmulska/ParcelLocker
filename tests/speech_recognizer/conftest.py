@@ -75,3 +75,13 @@ def speech_recognizer(mock_speech_recognizer_service):
         SpeechRecognizer: An instance of `SpeechRecognizer` initialized with the mocked service.
     """
     return SpeechRecognizer(mock_speech_recognizer_service)
+
+
+@pytest.fixture
+def mock_service():
+    mock_service = MagicMock(spec=SpeechRecognizerService)
+    return mock_service
+
+@pytest.fixture
+def mock_speech_recognizer(mock_service: MagicMock):
+    return SpeechRecognizer(mock_service)
