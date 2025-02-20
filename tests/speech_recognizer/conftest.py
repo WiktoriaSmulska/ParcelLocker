@@ -79,9 +79,20 @@ def speech_recognizer(mock_speech_recognizer_service):
 
 @pytest.fixture
 def mock_service():
+    """
+    Creates a mock instance of the SpeechRecognizerService.
+    This mock service is used to simulate interactions with the actual service
+    during unit tests, without requiring real API calls or dependencies.
+    """
     mock_service = MagicMock(spec=SpeechRecognizerService)
     return mock_service
 
 @pytest.fixture
 def mock_speech_recognizer(mock_service: MagicMock):
+    """
+    Creates a mock instance of the SpeechRecognizer class with the mocked service.
+    This allows for isolated testing of speech recognition functionalities
+    while mocking dependencies like OpenAI and ElevenLabs.
+    """
+
     return SpeechRecognizer(mock_service)
